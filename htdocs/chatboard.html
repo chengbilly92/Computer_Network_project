@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>&#x1F250</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="chatboard.css">
+</head>
+<body>
+  <div class="header">
+    <nav>
+      <a href="#" id="home_link">首頁</a> 
+      <a href="#" id="chatboard_link">留言板</a> 
+      <a href="#" id="call_link">聲音串流</a> 
+      <a href="#" id="video_link">影片串流</a>
+    </nav>
+    <div id="profile-box">
+      <p id="user-name"></p>
+      <button onclick="logout()" class="logout_button">Logout</button>
+    </div>
+  </div>
+  
+  <div class="container">
+    <h1 class="page-title">留言板</h1>
+    <div class="message-list-container">
+      <div id="messageList"></div>
+    </div>
+    <div class="message-container">
+      <textarea id="message" required></textarea>
+      <button type="button" onclick="addMessage()" id="message-button">留言</button>
+    </div>
+
+  </div>
+
+  <script src="chatboard.js"></script>
+</body>
+</html>
+

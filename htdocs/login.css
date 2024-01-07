@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+ 
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  background-color: #eeeeee;
+}
+ 
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+ 
+.heading {
+  color: green;
+}
+ 
+label {
+  height: 20px;
+  width: 400px;
+  padding-left: 30px;
+  font-size: 18px;
+  margin: 10px auto;
+}
+
+.title {
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+ 
+.container {
+  height: 450px;
+  width: 500px;
+  background-color: #c8c8c8;
+  box-shadow: 8px 8px 20px #ffffff;
+  position: relative;
+  overflow: hidden;
+}
+ 
+.btn {
+  height: 60px;
+  width: 300px;
+  margin: 20px auto;
+  box-shadow: 3px 6px 9px #5a0401;
+  background-color: #9b3800;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+ 
+.login, .register {
+  font-size: 22px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  position: relative;
+  cursor: pointer;
+}
+ 
+.slider {
+  height: 60px;
+  width: 150px;
+  border-radius: 50px;
+  background-image: linear-gradient(to right, #ffeb00, #ffc200);
+  position: absolute;
+  top: 20px;
+  left: 100px;
+  transition: all 0.5s ease-in-out;
+}
+ 
+.moveslider {
+  left: 250px;
+}
+ 
+.form-section {
+  height: 450px;
+  width: 1000px;
+  padding: 20px 0;
+  display: flex;
+  position: relative;
+  transition: all 0.5s ease-in-out;
+  left: 0px;
+}
+ 
+.form-section-move {
+  left: -500px;
+}
+ 
+.login-page, .register-page {
+  height: 100%;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding: 0px 40px;
+}
+ 
+.ele {
+  height: 40px;
+  width: 400px;
+  outline: none;
+  border: none;
+  color: #444444;
+  background-color: #eeeeee;
+  border-radius: 50px;
+  padding-left: 30px;
+  font-size: 18px;
+}
+
+.ele:focus {
+  background-color: #c89c00;
+}
+ 
+.clkbtn {
+  height: 60px;
+  width: 150px;
+  border-radius: 50px;
+  background-image: linear-gradient(to right, #2ffc00, #00d746);
+  font-size: 22px;
+  border: none;
+  cursor: pointer;
+  margin: 20px auto;
+}
+
+form i {
+    margin-left: -30px;
+    cursor: pointer;
+}

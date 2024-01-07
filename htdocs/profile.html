@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=\"UTF-8\">
+  <title>&#x1F250</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+  <div class="header">
+    <nav>
+      <a href="#" id="home_link">首頁</a> 
+      <a href="#" id="chatboard_link">留言板</a> 
+      <a href="#" id="call_link">聲音串流</a> 
+      <a href="#" id="video_link">影片串流</a>
+    </nav>
+    <div id="profile-box">
+      <p id="viewr-name"></p>
+      <button onclick="logout()" class="logout_button">Logout</button>
+    </div>
+  </div>
+  
+  <div class="container">
+    <section>
+      <h1>
+        <span id="username"></span>
+      </h1>
+      <h2>個人資訊</h2>
+      <div id="user-info" class="editable-textbox" contenteditable="false">Loading...</div>
+      <button onclick="enableEditing()" id="edit-button">編輯</button>
+      <button onclick="saveChanges()" id="save-button" style="display: none;">儲存</button>
+      <button onclick="cancelEditing()" id="cancel-button" style="display: none;">取消</button>
+    </section>
+  </div>
+
+  <script src="profile.js"></script>
+</body>
+</html>
+

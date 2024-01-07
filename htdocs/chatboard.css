@@ -1,0 +1,150 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.header {
+  background-color: #333333;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: #ff9800; 
+  text-decoration: none;
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 20px;
+  margin-right: 10px;
+  border: 2px solid #ff9800; 
+  border-radius: 4px;
+  transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease; 
+}
+
+nav a:hover {
+  color: #ffe8bf;
+  background-color: #ff9800; 
+  border-color: #e64a19; /
+}
+
+.container {
+  max-width: 95%;
+  height: 415px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.logout_button {
+  padding: 5px 20px;
+  background-color: #4caf50; 
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+section {
+  margin-top: 20px;
+}
+
+h1{
+  color: #ff9800;
+  margin: 0px 0px;
+  text-align: center;
+  font-size: 18px;
+}
+
+h2{
+  color: #55d025;
+}
+
+#user-info {
+  color: #555;
+  line-height: 1.6;
+}
+
+button {
+  font-size: 14px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label, input{
+  display: block;
+  margin-bottom: 10px;
+}
+
+textarea {
+  display: block;
+  margin-right: 10px;
+  width: 50%;
+  height: 50px;
+  white-space: nowrap;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.message-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.message-list-container {
+  display: flex;
+  justify-content: center;
+}
+
+#messageList {
+  white-space: pre-wrap;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-top: 10px;
+  overflow-y: auto;
+  width: 80%;
+  max-height: 300px;
+  align-items: center;
+  justify-content: center;
+}
+
+#user-name {
+  color: #ffffff;
+  font-size:20px;
+}
+
+#profile-box p, button {
+  display: inline-block;
+  margin: 0px 10px;
+}

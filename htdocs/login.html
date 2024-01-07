@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>&#x1F250</title>
+	<link rel="stylesheet" href="login.css">
+	<script defer src="login.js"></script>
+</head>
+
+<body>
+  <header>
+	<h1 class="heading">My Profile</h1>
+	<h3 class="title">Login or Register</h3>
+  </header>
+
+	<div class="container">
+    <div class="slider"></div>
+		<div class="btn">
+			<button class="login">Login</button>
+			<button class="register">Register</button>
+		</div>
+
+		<div class="form-section">
+			<div class="login-page">
+        <label><b>Username</b></label>
+				<input type="text" class="ele" placeholder="Enter your username" id="login_username">
+        <label><b>Password</b></label>
+				<input type="password" class="ele" placeholder="Enter your password" id="login_password">
+        <i class="bi bi-eye-slash" id="togglePassword"></i>
+				<button class="clkbtn" id="login_btn">Login</button>
+			</div>
+
+			<div class="register-page">
+        <label><b>Username</b></label>
+				<input type="text" class="ele" placeholder="Username" id="register_username">
+        <label><b>Password</b></label>
+				<input type="password" class="ele" placeholder="Password" id="register_password">
+        <label><b>Repeat Password</b></label>
+				<input type="password" class="ele" placeholder="Confirm password" id="register_confirm_password">
+				<button class="clkbtn" id="register_btn">Register</button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=\"UTF-8\">
+  <title>&#x1F250</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="call.css">
+</head>
+<body>
+  <div class="header">
+    <nav>
+      <a href="#" id="home_link">首頁</a> 
+      <a href="#" id="chatboard_link">留言板</a> 
+      <a href="#" id="call_link">聲音串流</a> 
+      <a href="#" id="video_link">影片串流</a>
+    </nav>
+    <div id="profile-box">
+      <p id="viewr-name"></p>
+      <button onclick="logout()" class="logout_button">Logout</button>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="audio-list-container">
+      <div id="audioList"></div>
+    </div>
+    <section>
+      <form id="fileUploadForm" enctype="multipart/form-data">
+        <label for="fileInput">上傳音訊：</label>
+        <input type="file" id="fileInput" name="file" accept=".mp3, .wav, .aac, .flac, .ogg">
+        <button type="button" id="submit-button" onclick="uploadFile()">上傳檔案</button>
+      </form>
+    </section>
+  </div>
+
+  <script src="call.js"></script>
+</body>
+</html>
+
